@@ -43,7 +43,7 @@ positionsWithFind x xs = [i | i <- myFind x y]
 scalarproduct :: [Int] -> [Int] -> Int
 scalarproduct xs ys = sum [x * y | (x, y) <- zip xs ys]
 
--- scalarproduct [1,2,3] [4,5,6] evaluates to 32
+-- scalarproduct [1, 2, 3] [4, 5, 6] evaluates to 32
 
 -- ====== Exercise 8 ======
 let2int :: Char -> Int
