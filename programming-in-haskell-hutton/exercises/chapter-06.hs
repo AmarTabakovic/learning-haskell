@@ -38,8 +38,7 @@ myExp n k = n * myExp n (k - 1)
 -- ====== Exercise 3 ======
 -- 1. recAnd
 recAnd :: [Bool] -> Bool
-recAnd [] = False
-recAnd [x] = x
+recAnd [] = True
 recAnd (x : xs) = x && recAnd xs
 
 -- 2. recConcat
